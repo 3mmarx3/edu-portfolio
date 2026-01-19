@@ -1,30 +1,92 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jenny - Product Designer Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Eng Ammar Ahmed Mostafa">
+    <meta name="designer" content="Eng Ammar Ahmed Mostafa">
+    <link rel="author" href="https://eng-ammar.com/">
+    
+    <title>Edu For | Leading Digital Transformation & Strategic Consulting</title>
+    <meta name="description" content="Edu For provides expert digital transformation services, strategic business consulting, and customized software solutions. Partner with us to scale your business with smart systems and certified executive training.">
+    <meta name="keywords" content="Edu For, Business Consulting, Digital Transformation, Software Solutions, Executive Training, Smart Systems, ERP Implementation, Cairo Consulting Firm">
+    <link rel="canonical" href="https://edu-platform.org/">
+    <meta name="google-site-verification" content="tWFV3Rf--G0Eshkv1zEcB0LNEORDN2PHMPX1c0rrnjc" />
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://edu-platform.org/">
+    <meta property="og:title" content="Edu For - Your Partner in Strategic Consulting & Digital Transformation">
+    <meta property="og:description" content="Empowering organizations through innovative software solutions and expert business strategies. Experience growth with Edu For.">
+    <meta property="og:image" content="https://edu-platform.org/assets/img/og-image.jpg">
+    <meta property="og:site_name" content="Edu For Company">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Edu For - Professional Business & Digital Solutions">
+    <meta name="twitter:description" content="Scale your business with expert-led consulting and smart digital systems.">
+    <meta name="twitter:image" content="https://edu-platform.org/assets/img/twitter-card.jpg">
+
+    <link rel="icon" type="image/png" href="./assets/img/favicon.png">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body>
-<header>
-        <div class="logo" data-aos="fade-down" data-aos-duration="800">
-            <img src="./assets/imge/logo.png" alt="Edu For Logo">
-        </div>
-        <nav>
-            <a href="#" class="active">Home</a>
-            <a href="#">Services</a>
-            <a href="#">About Us</a>
-            <a href="#">Methodology</a>
-            <a href="#">Blog</a>
-            <a href="#">Testimonials</a>
-        </nav>
-        <button class="header-contact" data-aos="fade-down" data-aos-duration="800" data-aos-delay="100">Contact Us</button>
-    </header>
 
- <main class="hero-section">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Edu For",
+  "url": "https://edu-platform.org/",
+  "logo": "https://edu-platform.org/assets/img/favicon.png",
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+201505622819",
+      "contactType": "customer service",
+      "areaServed": "EG",
+      "availableLanguage": ["Arabic", "English"]
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+201556059298",
+      "contactType": "technical support",
+      "areaServed": "EG",
+      "availableLanguage": ["Arabic", "English"]
+    }
+  ],
+  "sameAs": [
+    "https://www.facebook.com/profile.php?id=61586734350850"
+  ]
+}
+</script>
+
+</head>
+<body id="body">
+
+
+
+<div id="loading-spinner" class="loading-spinner">
+    <div class="dot-spinner" >
+    <div class="dot-spinner__dot"></div>
+    <div class="dot-spinner__dot"></div>
+    <div class="dot-spinner__dot"></div>
+    <div class="dot-spinner__dot"></div>
+    <div class="dot-spinner__dot"></div>
+    <div class="dot-spinner__dot"></div>
+    <div class="dot-spinner__dot"></div>
+    <div class="dot-spinner__dot"></div>
+</div>
+
+</div>
+
+
+<div id="root">
+
+
+<?php include './includes/header.php'; ?>   
+
+ <main class="hero-section" id="Home">
         <div class="hero-container">
             <div class="hire-me-badge" data-aos="fade-right" data-aos-duration="1000">
                 <div class="rotating-text">
@@ -75,7 +137,7 @@
         </div>
     </div>
     <main class="container">
-  <section class="premium-challenges">
+  <section class="premium-challenges" id="Challenges">
             <div class="content-wrapper">
                 <div class="header-area" data-aos="fade-up" data-aos-duration="800">
                     <span class="status-badge">Operational Audit</span>
@@ -123,7 +185,7 @@
             </div>
         </section>
 
-        <section class="services-section">
+        <section class="services-section" id="Services">
             <div class="header-area" data-aos="fade-up" data-aos-duration="800">
                 <span class="service-tag">— Our Solutions</span>
                 <h2>What We Do For <span>Your Growth</span></h2>
@@ -160,7 +222,7 @@
             </div>
         </section>
 
-     <section class="edu-methodology">
+     <section class="edu-methodology" id="Methodology">
             <div>
                 <div class="header-area" data-aos="fade-up" data-aos-duration="800">
                     <span class="sub-title">— Our Methodology</span>
@@ -216,7 +278,7 @@
             </div>
         </section>
 
-        <section class="features-section">
+        <section class="features-section" id="Features">
             <div class="header-area" data-aos="fade-up" data-aos-duration="800">
                 <span class="pill">The Partnership Model</span>
                 <h2>What Sets <span>Edu For</span> Apart</h2>
@@ -289,72 +351,62 @@
             </div>
         </section>
 
-<section class="premium-blog">
-            <div>
-                <div class="blog-intro" data-aos="fade-up" data-aos-duration="800">
-                    <div class="intro-left">
-                        <span class="badge-line">The Journal</span>
-                        <h2>Latest <span>Insights</span></h2>
-                    </div>
-                    <div class="intro-right">
-                        <p>Explore our professional perspective on digital transformation and executive leadership.</p>
-                        <a href="#" class="view-all">Explore All Posts <span>+</span></a>
-                    </div>
-                </div>
 
-                <div class="blog-vertical-grid">
-                    <div class="blog-item" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
-                        <div class="blog-image-wrapper">
-                            <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=800&auto=format&fit=crop" alt="Strategy">
-                            <div class="overlay-tag">Strategy</div>
-                        </div>
-                        <div class="blog-info">
-                            <div class="meta-row">
-                                <span class="read-time">5 MIN READ</span>
-                                <span class="separator">/</span>
-                                <span class="date">JAN 19, 2026</span>
-                            </div>
-                            <h3>Leading Through Change: The Executive Mindset</h3>
-                            <p>Navigating the complex landscape of institutional transformation requires more than just technology; it requires a complete system shift...</p>
-                        </div>
-                    </div>
-
-                    <div class="blog-item active" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
-                        <div class="blog-image-wrapper">
-                            <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop" alt="Software">
-                            <div class="overlay-tag">Systems</div>
-                        </div>
-                        <div class="blog-info">
-                            <div class="meta-row">
-                                <span class="read-time">8 MIN READ</span>
-                                <span class="separator">/</span>
-                                <span class="date">JAN 15, 2026</span>
-                            </div>
-                            <h3>Automated Operations: Beyond the Basics</h3>
-                            <p>Building a system that thinks for you. How integrated CRM and ERP solutions redefine daily efficiency and data-driven decisions...</p>
-                        </div>
-                    </div>
-
-                    <div class="blog-item" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
-                        <div class="blog-image-wrapper">
-                            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=800&auto=format&fit=crop" alt="Growth">
-                            <div class="overlay-tag">Education</div>
-                        </div>
-                        <div class="blog-info">
-                            <div class="meta-row">
-                                <span class="read-time">4 MIN READ</span>
-                                <span class="separator">/</span>
-                                <span class="date">JAN 10, 2026</span>
-                            </div>
-                            <h3>Digital Scaling for Modern Educational Brands</h3>
-                            <p>Digital transformation for schools is about the complete institutional system, from management to smart learning environments...</p>
-                        </div>
-                    </div>
-                </div>
+        <section class="premium-blog" id="Blog">
+    <div>
+        <div class="blog-intro" data-aos="fade-up" data-aos-duration="800">
+            <div class="intro-left">
+                <span class="badge-line">The Journal</span>
+                <h2>Latest <span>Insights</span></h2>
             </div>
-        </section>
+            <div class="intro-right">
+                <p>Explore our professional perspective on digital transformation and executive leadership.</p>
+                <a href="https://edu-platform.org/blog" class="view-all">Explore All Posts <span>+</span></a>
+            </div>
+        </div>
 
-        <section class="solutions-bento">
+
+    <?php
+$api_url = "https://edu-platform.org/pages/api-blog.php";
+
+$response = @file_get_contents($api_url);
+$result = json_decode($response, true);
+
+if ($result && $result['status'] === "success" && !empty($result['data'])) : ?>
+    <div class="blog-vertical-grid">
+        <?php 
+$posts = $result['data'];
+        foreach ($posts as $index => $post) : 
+            $isActive = ($index === 1) ? 'active' : '';
+            $delay = ($index + 1) * 100;
+        ?>
+            <div class="blog-item <?= $isActive ?>" data-aos="fade-up" data-aos-duration="800" data-aos-delay="<?= $delay ?>">
+                <a href="<?= $post['url'] ?>" target="_blank" style="text-decoration: none; color: inherit; display: block;">
+                    <div class="blog-image-wrapper">
+                        <img src="<?= $post['image'] ?>" alt="<?= htmlspecialchars($post['title']) ?>">
+                        <div class="overlay-tag"><?= htmlspecialchars($post['category']) ?></div>
+                    </div>
+                    <div class="blog-info">
+                        <div class="meta-row">
+                            <span class="read-time"><?= $post['views'] ?> VIEWS</span>
+                            <span class="separator">/</span>
+                            <span class="date"><?= $post['date'] ?></span>
+                        </div>
+                        <h3><?= htmlspecialchars($post['title']) ?></h3>
+                    </div>
+                </a>
+            </div>
+        <?php endforeach; ?>
+    </div>
+<?php else : ?>
+    <p style="color: #fff; text-align: center; width: 100%;">No recent insights available.</p>
+<?php endif; ?>
+    </div>
+</section>
+
+
+
+        <section class="solutions-bento" id="Features">
             <div>
                 <div class="header-area" data-aos="fade-up" data-aos-duration="800">
                     <span class="badge">Our Ecosystem</span>
@@ -412,7 +464,7 @@
 
 
 
-  <section class="testimonials-section">
+  <section class="testimonials-section" id="Testimonials">
             <div>
                 <div class="header-area" data-aos="fade-up" data-aos-duration="800">
                     <span class="pill-tag">Success Stories</span>
@@ -460,7 +512,7 @@
             </div>
         </section>
 
-        <section class="futuristic-contact">
+        <section class="futuristic-contact" id="Contact">
             <div class="contact-grid">
                 <div class="contact-visual-side" data-aos="fade-right" data-aos-duration="800">
                     <div class="visual-content">
@@ -526,88 +578,17 @@
         </section>
     </main>
 
-<footer class="premium-footer">
-        <div class="footer-overlay-glow"></div>
-        <div class="container">
-            <div class="footer-top-grid" data-aos="fade-up" data-aos-duration="800">
-                <div class="footer-brand-side">
-                    <div class="f-logo">Edu For<span>.</span></div>
-                    <p class="f-motto">Transforming vision into digital reality through strategic consulting and bespoke software systems.</p>
-                    <div class="f-socials">
-                        <a href="#" class="s-link">LinkedIn</a>
-                        <a href="#" class="s-link">Facebook</a>
-                        <a href="#" class="s-link">Instagram</a>
-                    </div>
-                </div>
-                <div class="footer-newsletter">
-                    <h4>Stay Informed</h4>
-                    <p>Subscribe for our latest digital transformation insights.</p>
-                    <div class="f-input-box">
-                        <input type="email" placeholder="Work email address">
-                        <button>Subscribe</button>
-                    </div>
-                </div>
-            </div>
 
-            <div class="f-divider"></div>
+<a href="https://wa.me/+249993968162" class="whatsapp-icon-only" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+</a>
 
-            <div class="footer-links-grid" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
-                <div class="link-col">
-                    <h5>Solutions</h5>
-                    <ul>
-                        <li><a href="#">Business Consulting</a></li>
-                        <li><a href="#">Smart Systems</a></li>
-                        <li><a href="#">Institutional Training</a></li>
-                        <li><a href="#">Process Automation</a></li>
-                    </ul>
-                </div>
-                <div class="link-col">
-                    <h5>Company</h5>
-                    <ul>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Our Methodology</a></li>
-                        <li><a href="#">Latest Insights</a></li>
-                        <li><a href="#">Success Stories</a></li>
-                    </ul>
-                </div>
-                <div class="link-col">
-                    <h5>Legal</h5>
-                    <ul>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Terms of Service</a></li>
-                        <li><a href="#">Compliance</a></li>
-                    </ul>
-                </div>
-                <div class="link-col contact-col">
-                    <h5>Contact</h5>
-                    <p>Executive & Consulting Services<br />Available Globally</p>
-                    <a href="mailto:contact@edufor.com" class="f-email">contact@edufor.com</a>
-                </div>
-            </div>
 
-            <div class="footer-bottom" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
-                <p>© 2026 Edu For Executive & Consulting. All rights reserved.</p>
-                <div class="system-status">
-                    <span class="status-dot"></span> System Operational
-                </div>
-            </div>
-        </div>
-    </footer>
+    <?php include './includes/footer.php'; ?>
+
+</div>
+
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-    window.addEventListener('load', function() {
-        AOS.init({
-            duration: 600,
-            once: true,
-            offset: 50,
-            mirror: false,
-            anchorPlacement: 'top-bottom'
-        });
-        
-        AOS.refresh();
-    });
-</script>
-
-
+<script src="./assets/js/script.js"></script>
 </body>
 </html>
