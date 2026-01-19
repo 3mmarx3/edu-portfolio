@@ -26,7 +26,7 @@
     <meta name="twitter:description" content="Scale your business with expert-led consulting and smart digital systems.">
     <meta name="twitter:image" content="https://edu-platform.org/assets/img/twitter-card.jpg">
 
-    <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+    <link rel="icon" type="image/png" href="favicon.ico">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
